@@ -1,0 +1,3 @@
+CONFIG_WEBSOCKET_HOST="stage.example.com"
+CONFIG_DEFCONFIG="configs/stage_defconfig"
+CONFIG_TEST2=y

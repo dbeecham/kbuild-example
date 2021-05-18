@@ -1,0 +1,4 @@
+*.o
+hw
+.config
+.config.old

@@ -1,0 +1,32 @@
+mainmenu "An example kbuild project"
+
+
+# boolean example
+config FFAST_MATH
+    bool "Go fast with -ffast-math"
+
+
+# string example
+config WEBSOCKET_HOST
+    string "Websocket host address"
+    default "me.example.com"
+
+
+# defconfig example
+config DEFCONFIG
+    string "defconfig path"
+    default "configs/secure_defconfig"
+
+
+# choice example
+choice
+    prompt "test() implementation"
+
+    config TEST1
+        bool "test 1"
+
+    config TEST2
+        bool "test 2"
+endchoice
+
+
